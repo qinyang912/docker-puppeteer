@@ -1,4 +1,4 @@
-FROM node:10.15.0
+FROM node:12.18.1
 
 # 安装puppeteer需要的系统依赖
 RUN apt-get update && \
